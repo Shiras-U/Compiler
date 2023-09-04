@@ -35,7 +35,7 @@ void main()
 	
 	FILE *f1;
 	int i,j=0;
-	f1 = fopen("sample.c","r");
+	f1 = fopen("input.c","r");
 	
 	if(f1==NULL)
 	{

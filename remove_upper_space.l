@@ -9,7 +9,7 @@ int yywrap(){
 }
 int main(){
 extern FILE *yyin, *yyout;
-yyin=fopen("input_file.txt","r");
-yyout=fopen("output_file.txt","w");
+yyin=fopen("input.txt","r");
+yyout=fopen("output.txt","w");
 yylex();
 }
